@@ -1,5 +1,5 @@
 body{
-    background-color: #457890;
+    background-color:  rgb(165, 156, 156);
 }
 .input-container
 {
@@ -45,7 +45,7 @@ h1{
 
 }
 .actions > button{
-    background-color: #E63946;
+    background-color: rgb(226, 95, 72);
     color: white;
     height: 30px;
     width:75px;

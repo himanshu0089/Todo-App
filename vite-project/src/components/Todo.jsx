@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
-function Todo({todo, index, delTodo}) {
+function Todo({ todo, index, delTodo }) {
   return (
-    <div className="todo">
-          <p>{todo}</p>
-          <div className="actions">
-            <input type="checkbox" required></input>
-            <button onClick={()=>delTodo(index)}>Delete</button>
-          </div>
-        </div>
-  )
+    <form className="todo">
+      <p>{todo}</p>
+      <div className="actions">
+        <input type="checkbox"/>
+        <button onClick={() => delTodo(index)}>Delete</button>
+      </div>
+    </form>
+  );
 }
 
-export default Todo
+export default Todo;
